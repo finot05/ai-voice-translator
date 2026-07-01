@@ -260,7 +260,7 @@ with c2:
 with c3:
     st.markdown('<div class="lbl">To</div>', unsafe_allow_html=True)
     st.markdown('<div class="select-wrap">', unsafe_allow_html=True)
-    st.selectbox("To", ["🇪🇹  አማርኛ (Amharic)", "🇺🇸  English", "🇫🇷  French", "🇪🇸  Spanish"], index=0)
+    st.selectbox("To", ["English", "Amharic (አማርኛ)", "Afaan Oromo (Oromiffa)", "Somali", "Tigrinya (ትግርኛ)"], index=0)
     st.markdown('</div>', unsafe_allow_html=True)
 
 st.markdown('</div>', unsafe_allow_html=True)
