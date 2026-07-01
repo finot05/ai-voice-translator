@@ -251,7 +251,7 @@ c1, c2, c3 = st.columns([1.05, 0.22, 1.05])
 with c1:
     st.markdown('<div class="lbl">From</div>', unsafe_allow_html=True)
     st.markdown('<div class="select-wrap">', unsafe_allow_html=True)
-    st.selectbox("From", ["🇺🇸  English", "🇪🇹  አማርኛ (Amharic)", "🇫🇷  French", "🇪🇸  Spanish"], index=0)
+    st.selectbox("From", ["English", "Amharic (አማርኛ)", "Afaan Oromo (Oromiffa)", "Somali", "Tigrinya (ትግርኛ)"], index=0)
     st.markdown('</div>', unsafe_allow_html=True)
 
 with c2:
