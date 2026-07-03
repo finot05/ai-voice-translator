@@ -1,4 +1,7 @@
-streamlit==1.35.0
+streamlit
 requests
 gTTS
 streamlit-extras
+audio-recorder-streamlit
+transformers
+torch
